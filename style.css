@@ -1,0 +1,63 @@
+.intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(74, 100, 148);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    float: left;
+    display: flex;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.bodytext {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+.homepic {
+    float: right;
+    padding-top: 1%;
+    width: 35%;
+    padding-bottom: 1%;
+}
+
+.bacteriapic {
+    float: left;
+    padding-top: 1%;
+    width: 20%;
+}
+
+.colonypic {
+    float: right;
+    padding-top: 15%;
+    width: 20%;
+    padding-bottom: 1%;
+}
+
+.resistance {
+    float: right;
+    padding-top: 8%;
+    width: 30%;
+}
+
